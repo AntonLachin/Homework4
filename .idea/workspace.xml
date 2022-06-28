@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="576f09f1-2ec7-472b-8960-18b12f9736cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4.iml" afterDir="false" />
+    <list default="true" id="576f09f1-2ec7-472b-8960-18b12f9736cb" name="Changes" comment="1st build">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstPart/AlgorithmMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstPart/AlgorithmMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstPart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstPart/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "Q:/Обучение/Курс Java-developer/3_Java basic/Лабораторные/Homework3"
   }
 }]]></component>
@@ -72,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656430928743</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st build">
+      <created>1656441331036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656441331036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st build" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st build" />
   </component>
 </project>

@@ -55,6 +55,7 @@ public class AlgorithmMethods {
             System.out.println("Сумма первых двух не равна третьему!");
         }
     }
+
     /**
      * 4.4 Сравнение значений чисел между собой
      */
@@ -71,16 +72,17 @@ public class AlgorithmMethods {
         if (b > a && c > b) {
             System.out.println("true");
         } else {
-            System.out.println("Число "+ a+" не наименьшее");
+            System.out.println("Число " + a + " не наименьшее");
         }
     }
+
     /**
      * 4.5 Проверка первого и последнего элемента массива на равенство 3.
      */
-    public static void ifThereAreThirds (){
-        int i =10;
-        int[] array2 = {3,10,24,22,11,7};
-        int[] array3 = {10,14,42,45,34,81,3};
+    public static void ifThereAreThirds() {
+        int i = 10;
+        int[] arrayTwo = {3, 10, 24, 22, 11, 7};
+        int[] arrayThree = {10, 14, 42, 45, 34, 81, 3};
 
         Random rd = new Random();
         int[] randomArray = new int[i];
@@ -89,15 +91,62 @@ public class AlgorithmMethods {
             System.out.println(randomArray[j]);
         }
 
-        if (randomArray[0] == 3 | randomArray[i-1] == 3) System.out.println("true");
+        if (randomArray[0] == 3 | randomArray[i - 1] == 3) System.out.println("true");
         else System.out.println("Ни в начале массива ни в конце цифры 3 нет!");
 
-        if (array2[0] == 3 | array2[array2.length-1] == 3) System.out.println("true");
+        if (arrayTwo[0] == 3 | arrayTwo[arrayTwo.length - 1] == 3) System.out.println("true");
         else System.out.println("Ни в начале массива ни в конце цифры 3 нет!");
 
-        if (array3[0] == 3 | array3[array3.length-1] == 3) System.out.println("true");
+        if (arrayThree[0] == 3 | arrayThree[arrayThree.length - 1] == 3) System.out.println("true");
         else System.out.println("Ни в начале массива ни в конце цифры 3 нет!");
     }
 
+    /**
+     * 4.6 Поиск 1 либо 3 в составе массива
+     */
+    public static void areThereSomeNumbers() {
+        int[] arrayOne = {1, 17, 7, 0, 51, 6, 3, 37, 14, 9, 45};
+        int[] arrayTwo = {24, 22, 7, 0, 51, 6, 1, 37};
+        int[] arrayThree = {24, 17, 7, 458, 51, 6, 102, 34, 14, 9, 22, 34, 58, 67};
+        int i = 0;
+        int j = 0;
+        int k = 0;
 
+        while (arrayOne.length - i != 0) {
+            i++;
+            if (arrayOne[arrayOne.length - i] == 3) {
+                System.out.println("В этом массиве есть число 3! \n");
+                break;
+            } else if (arrayOne[arrayOne.length - i] == 1) {
+                System.out.println("В этом массиве есть число 1! \n");
+                break;
+            } else if (arrayOne.length - i == 0) {
+                System.out.println("В массиве нет ни 3 ни 1! \n");
+            }
+        }
+        while (arrayTwo.length - j != 0) {
+            j++;
+            if (arrayTwo[arrayTwo.length - j] == 3) {
+                System.out.println("В этом массиве есть число 3! \n");
+                break;
+            } else if (arrayTwo[arrayTwo.length - j] == 1) {
+                System.out.println("В этом массиве есть число 1! \n");
+                break;
+            } else if (arrayTwo.length - j == 0) {
+                System.out.println("В массиве нет ни 3 ни 1! \n");
+            }
+        }
+        while (arrayThree.length - k != 0) {
+            k++;
+            if (arrayThree[arrayThree.length - k] == 3) {
+                System.out.println("В этом массиве есть число 3! \n");
+                break;
+            } else if (arrayThree[arrayThree.length - k] == 1) {
+                System.out.println("В этом массиве есть число 1! \n");
+                break;
+            } else if (arrayThree.length - k == 0) {
+                System.out.println("В массиве нет ни 3 ни 1! \n");
+            }
+        }
+    }
 }

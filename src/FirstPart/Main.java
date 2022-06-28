@@ -11,5 +11,7 @@ public class Main {
         AlgorithmMethods.ifFirstSmallest();
 
         AlgorithmMethods.ifThereAreThirds();
+
+        AlgorithmMethods.areThereSomeNumbers();
     }
 }
