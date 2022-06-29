@@ -13,5 +13,13 @@ public class Main {
         AlgorithmMethods.ifThereAreThirds();
 
         AlgorithmMethods.areThereSomeNumbers();
+
+        Arrays.ifArraySorted();
+
+        Arrays.arrayLengthAndInput();
+
+        Arrays.changePlaces();
+
+        Arrays.firstUnique();
     }
 }

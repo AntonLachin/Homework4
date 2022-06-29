@@ -1,12 +1,11 @@
 package FirstPart;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
 public class AlgorithmMethods {
     /**
-     * 4.1 Вывод нечётных
+     * 4.1.1 Вывод нечётных
      */
     public static void odd() {
         int i = 0;
@@ -20,7 +19,7 @@ public class AlgorithmMethods {
     }
 
     /**
-     * 4.2 Вывод делящихся на 3,5
+     * 4.1.2 Вывод делящихся на 3,5
      */
     public static void threeOrFive() {
         int j = 0;
@@ -37,7 +36,7 @@ public class AlgorithmMethods {
     }
 
     /**
-     * 4.3 Проверка равенства суммы двух третьему
+     * 4.1.3 Проверка равенства суммы двух третьему
      */
     public static void isSummSuit() {
         Scanner in = new Scanner(System.in);
@@ -57,7 +56,7 @@ public class AlgorithmMethods {
     }
 
     /**
-     * 4.4 Сравнение значений чисел между собой
+     * 4.1.4 Сравнение значений чисел между собой
      */
     public static void ifFirstSmallest() {
         Scanner in = new Scanner(System.in);
@@ -77,7 +76,7 @@ public class AlgorithmMethods {
     }
 
     /**
-     * 4.5 Проверка первого и последнего элемента массива на равенство 3.
+     * 4.1.5 Проверка первого и последнего элемента массива на равенство 3.
      */
     public static void ifThereAreThirds() {
         int i = 10;
@@ -92,17 +91,17 @@ public class AlgorithmMethods {
         }
 
         if (randomArray[0] == 3 | randomArray[i - 1] == 3) System.out.println("true");
-        else System.out.println("Ни в начале массива ни в конце цифры 3 нет!");
+        else System.out.println("В начале массива или в конце цифры 3 нет!");
 
         if (arrayTwo[0] == 3 | arrayTwo[arrayTwo.length - 1] == 3) System.out.println("true");
-        else System.out.println("Ни в начале массива ни в конце цифры 3 нет!");
+        else System.out.println("В начале массива или в конце цифры 3 нет!");
 
         if (arrayThree[0] == 3 | arrayThree[arrayThree.length - 1] == 3) System.out.println("true");
-        else System.out.println("Ни в начале массива ни в конце цифры 3 нет!");
+        else System.out.println("В начале массива или в конце цифры 3 нет!");
     }
 
     /**
-     * 4.6 Поиск 1 либо 3 в составе массива
+     * 4.1.6 Поиск 1 либо 3 в составе массива
      */
     public static void areThereSomeNumbers() {
         int[] arrayOne = {1, 17, 7, 0, 51, 6, 3, 37, 14, 9, 45};

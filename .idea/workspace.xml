@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="576f09f1-2ec7-472b-8960-18b12f9736cb" name="Changes" comment="1st build">
+    <list default="true" id="576f09f1-2ec7-472b-8960-18b12f9736cb" name="Changes" comment="Полностью первая часть">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstPart/AlgorithmMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstPart/AlgorithmMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstPart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstPart/Main.java" afterDir="false" />
@@ -36,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "Q:/Обучение/Курс Java-developer/3_Java basic/Лабораторные/Homework3"
+    "last_opened_file_path": "Q:/Обучение/Курс Java-developer/3_Java basic/Лабораторные/Homework4"
   }
 }]]></component>
   <component name="RunManager">
@@ -75,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656441331036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Полностью первая часть">
+      <created>1656447799893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656447799893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st build" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st build" />
+    <MESSAGE value="Полностью первая часть" />
+    <option name="LAST_COMMIT_MESSAGE" value="Полностью первая часть" />
   </component>
 </project>
